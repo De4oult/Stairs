@@ -1,6 +1,6 @@
-from api import API
+from ion import Ion
 
-app = API()
+app = Ion()
 
 @app.pathway("/index")
 def handler(req, res):

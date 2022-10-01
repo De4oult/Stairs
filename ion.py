@@ -7,7 +7,7 @@ from parse import parse
 import inspect
 import os
 
-class API:
+class Ion:
     def __init__(self, templates_dir="index"):
         self.pathways = {}
 

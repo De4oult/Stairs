@@ -15,9 +15,9 @@ waitress-server main:app # Windows
 ### Initialization
 
 ```python
-from ion import API
+from ion import Ion
 
-app = API()
+app = Ion()
 ```
 
 ### Pathways

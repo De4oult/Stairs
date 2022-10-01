@@ -9,6 +9,6 @@ def handler(req, res):
 
         context = {
             "title" : "Ion", 
-            "text" : "Ion is best framework"
+            "text"  : "Ion is best framework"
         }
     ).encode()

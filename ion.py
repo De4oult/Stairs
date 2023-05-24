@@ -81,7 +81,7 @@ class Ion:
         return self.templates_env.get_template(template_name).render(**context)
 
     # Тесты
-    def test_session(self, base_url="http://ion"):
+    def test_session(self, base_url = "http://ion"):
         session = RequestsSession()
         session.mount(prefix=base_url, adapter=RequestsWSGIAdapter(self))
 
